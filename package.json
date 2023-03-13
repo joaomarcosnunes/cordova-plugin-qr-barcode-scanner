@@ -6,7 +6,6 @@
     "id": "cordova-plugin-qr-barcode-scanner",
     "platforms": [
       "ios",
-      "android",
       "windows",
       "browser"
     ]
@@ -19,25 +18,16 @@
     "ecosystem:cordova",
     "ecosystem:phonegap",
     "cordova-ios",
-    "cordova-android",
     "cordova-windows",
     "cordova-browser",
     "cordova:plugin"
   ],
   "engines": {
     "cordovaDependencies": {
-      "<7.0.0": {
-        "cordova-android": "<6.3.0"
-      },
-      "7.0.0": {
-        "cordova-android": ">=6.3.0"
-      },
       "7.1.0": {
-        "cordova-android": ">=6.3.0",
         "cordova": ">=7.1.0"
       },
       "8.0.0": {
-        "cordova-android": ">=6.3.0",
         "cordova": ">=7.1.0"
       }
     }
